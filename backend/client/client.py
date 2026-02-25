@@ -18,9 +18,9 @@ def enviar_dados():
 
     try:
         resposta = requests.post(URL, json=dados)
-        print("📤 Enviado:", dados)
-        print("📥 Status:", resposta.status_code)
-        print("📥 Resposta:", resposta.json())
+        print("Enviado:", dados)
+        print("Status:", resposta.status_code)
+        print("Resposta:", resposta.json())
         print("-" * 40)
 
     except Exception as e:
