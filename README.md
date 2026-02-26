@@ -1,14 +1,14 @@
-#IoT Sensor Monitor
-##ESP32 + Python Backend + Banco de Dados + Dashboard Web
+# IoT Sensor Monitor
+## ESP32 + Python Backend + Banco de Dados + Dashboard Web
 ________________________________________
-###**1. Visão Geral**
+### **1. Visão Geral**
 Este projeto implementa uma arquitetura completa de monitoramento IoT, integrando hardware embarcado, backend em Python, banco de dados e uma interface web para visualização de dados.
 O sistema coleta dados físicos por meio de sensores conectados a um ESP32, envia essas informações para um servidor backend desenvolvido em Python, armazena os registros em banco de dados e disponibiliza os dados organizados em uma aplicação web.
 O objetivo é demonstrar, de forma prática, a integração entre dispositivos físicos e aplicações web modernas, seguindo uma arquitetura organizada e escalável.
 
 ________________________________________
 
-###**2. Arquitetura do Sistema**
+### **2. Arquitetura do Sistema**
 A arquitetura segue o seguinte fluxo:
 ESP32
 ↓
@@ -21,7 +21,7 @@ Banco de Dados
 Aplicação Web (Dashboard)
 ________________________________________
 
-###**Responsabilidade de cada camada**
+### **Responsabilidade de cada camada**
 **ESP32**
 •	Coleta dados dos sensores
 •	Estrutura as informações em formato JSON
@@ -46,7 +46,7 @@ ________________________________________
 
 ________________________________________
 
-###**3. Problema Abordado**
+### **3. Problema Abordado**
 Sistemas que realizam apenas leitura local de sensores apresentam limitações como:
 •	Ausência de histórico persistente
 •	Falta de monitoramento remoto
@@ -59,7 +59,7 @@ Este projeto resolve essas limitações ao implementar:
 •	Visualização organizada
 ________________________________________
 
-###**4. Tecnologias Utilizadas**
+### **4. Tecnologias Utilizadas**
 Hardware
 •	ESP32
 •	Sensores ambientais (exemplo: temperatura e umidade)
@@ -75,7 +75,7 @@ Frontend
 •	TailwindCSS
 ________________________________________
 
-###**5. Funcionalidades Implementadas**
+### **5. Funcionalidades Implementadas**
 •	Coleta automática de dados via ESP32
 •	Envio periódico para o backend
 •	Armazenamento em banco de dados
@@ -85,7 +85,7 @@ ________________________________________
 •	Estrutura preparada para expansão
 ________________________________________
 
-###**6. Estrutura do Projeto**
+### **6. Estrutura do Projeto**
 /esp32
 Código responsável pela leitura dos sensores e envio via Wi-Fi
 /backend
@@ -98,7 +98,7 @@ Aplicação frontend responsável pela visualização
 README.md
 ________________________________________
 
-###**7. Conceitos Aplicados**
+### **7. Conceitos Aplicados**
 •	Arquitetura em camadas
 •	Separação de responsabilidades
 •	Comunicação HTTP entre dispositivo e servidor
@@ -108,7 +108,7 @@ ________________________________________
 •	Organização de projeto escalável
 ________________________________________
 
-###**8. Possíveis Evoluções**
+### **8. Possíveis Evoluções**
 •	Implementação de autenticação JWT
 •	Sistema de alertas automáticos
 •	Dashboard com gráficos analíticos
@@ -117,7 +117,7 @@ ________________________________________
 •	Monitoramento em tempo real via WebSocket
 ________________________________________
 
-###**9. Aplicabilidade**
+### **9. Aplicabilidade**
 A arquitetura proposta pode ser aplicada em:
 •	Monitoramento agrícola
 •	Controle ambiental
@@ -126,7 +126,7 @@ A arquitetura proposta pode ser aplicada em:
 •	Projetos acadêmicos
 ________________________________________
 
-###**10. Conclusão**
+### **10. Conclusão**
 Este projeto demonstra a implementação de um sistema IoT completo, integrando:
 •	Dispositivo embarcado
 •	Backend em Python
