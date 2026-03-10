@@ -10,7 +10,7 @@ export class CreateUser {
         console.log("\n📥 NOVA LEITURA DE USUÁRIO RECEBIDA");
 
 
-        console.log(`Salvando usuário: ${JSON.stringify(dados, null, 2)}`);
+        console.log("Salvando usuário:", JSON.stringify(dados, null, 2));
         await this.repo.createUser(dados);
 
     }
