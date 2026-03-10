@@ -1,0 +1,1 @@
+{"version":3,"file":"leitura_controller.d.ts","sourceRoot":"","sources":["leitura_controller.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,QAAQ,EAAE,OAAO,EAAE,MAAM,SAAS,CAAC;AAGjD,qBAAa,iBAAiB;IAE1B,OAAO,CAAC,OAAO,CAAyB;IAElC,YAAY,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;CAejD"}

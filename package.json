@@ -1,20 +1,21 @@
 {
   "name": "agromonitorbackend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend do projeto AgroMonitor",
+  "main": "dist/server.js",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "start:prod": "npm run build && node dist/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/victorsitta/AgroMonitorBackend.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "typescript", "backend", "api"],
+  "author": "João Victor Sitta",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/victorsitta/AgroMonitorBackend/issues"
